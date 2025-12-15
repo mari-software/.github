@@ -1,28 +1,25 @@
-<style>
-  .mari-logo {
-    width: 200px;
-    background: white;
-    padding: 30px;
-    border-radius: 30px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-    transition: 
-      transform 0.4s ease,
-      box-shadow 0.4s ease,
-      filter 0.4s ease;
-  }
-
-  .mari-logo:hover {
-    transform: translateY(-8px) scale(1.01);
-    box-shadow: 0 20px 45px rgba(0,0,0,0.25);
-    filter: brightness(1.05);
-  }
-</style>
-
 <div align="center">
-  <img 
+  <img
     src="assets/logo.png"
     alt="Mari logo"
-    class="mari-logo"
+    style="
+      width: 200px;
+      background: white;
+      padding: 30px;
+      border-radius: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+      transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease;
+    "
+    onmouseover="
+      this.style.transform='translateY(-8px) scale(1.01)';
+      this.style.boxShadow='0 20px 45px rgba(0,0,0,0.25)';
+      this.style.filter='brightness(1.05)';
+    "
+    onmouseout="
+      this.style.transform='translateY(0) scale(1)';
+      this.style.boxShadow='0 10px 30px rgba(0,0,0,0.15)';
+      this.style.filter='brightness(1)';
+    "
   />
 </div>
 
@@ -33,7 +30,7 @@
 </h1>
 
 <p align="center" style="max-width: 600px; margin: auto; color: #555;">
-  A modular, multi-platform software ecosystem designed for scalability, 
+  A modular, multi-platform software ecosystem designed for scalability,
   clean architecture, and long-term maintainability.
 </p>
 
@@ -67,4 +64,3 @@ The **Type** field indicates the role and deployment target of each product:
 - **linux** – Linux desktop apps
 
 ---
-
