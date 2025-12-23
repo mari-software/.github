@@ -28,39 +28,3 @@
 <h1 align="center" style="font-weight: 800;">
   Mari Software
 </h1>
-
-<p align="center" style="max-width: 600px; margin: auto; color: #555;">
-  A modular, multi-platform software ecosystem designed for scalability,
-  clean architecture, and long-term maintainability.
-</p>
-
----
-
-## ✨ Repository Walkthrough
-
-> This repository is organized by **product type** and **platform**,  
-> allowing services and applications to evolve independently while remaining interoperable.
-
-### 📦 Products Overview
-
-| Type   | Product  | Description          |
-|:------:|:--------:|----------------------|
-| record | gateway  | API Gateway Service  |
-| web    | account  | Account Website      |
-
----
-
-## 🧩 Project Types
-
-The **Type** field indicates the role and deployment target of each product:
-
-- **record** – Backend services (APIs, gateways, workers)
-- **web** – Web applications
-- **android** – Android applications
-- **ios** – iOS applications
-- **cli** – Command-line tools
-- **windows** – Windows desktop apps
-- **mac** – macOS desktop apps
-- **linux** – Linux desktop apps
-
----
